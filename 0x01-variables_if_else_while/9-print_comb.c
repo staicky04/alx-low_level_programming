@@ -13,6 +13,10 @@ int main(void)
 	for (nums = 48; nums <= 57; nums++)
 	{
 		putchar(nums);
+		if (nums == 57)
+		{
+			continue;
+		}
 		putchar(',');
 		putchar(' ');
 	}
