@@ -4,7 +4,7 @@
  * print_most_numbers - Loop through 0 to 9 but skip 2 & 4
  * Return: 1 as success, 0 otherwise
  */
-int print_most_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
