@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * _strncat - appends src to dest
@@ -15,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	len1 = strlen(dest);
 	for (i = 0; i < n; i++)
 	{
-	dest[len1 + i] = src[i];
+		dest[len1 + i] = src[i];
 	}
 	return (dest);
 }
