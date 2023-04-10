@@ -3,5 +3,4 @@
 
 int _putchar(char c);
 int atoi(char *str);
-int check_num(char *str)
 #endif
