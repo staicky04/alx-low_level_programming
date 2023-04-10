@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
  * main - return count of arguments passed, and strings passed resp.
  * @argc: int
@@ -8,6 +10,10 @@
 
 int main(int argc, char *argv[])
 {
-	_putchar('\n');
+	int i;
+
+	/* printf("%s\n", *argv);*/
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
