@@ -1,5 +1,5 @@
-#ifndef _FUNC_POINTER_
-#define _FUNC_POINTER_
+#ifndef FUNC_POINTER
+#define FUNC_POINTER
 
 void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
