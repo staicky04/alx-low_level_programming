@@ -5,14 +5,12 @@
  * sum_them_all - sums all the arguments passed
  * @n: counts of the argument passed
  * @...: elipsis - the arguments
- * Return: total
+ * Return: If n == 0 - 0.
+ *         Otherwise - the sum of all parameters.
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	if (n == 0)
-		return (0);
-
 	va_list lists;
 	unsigned int i, total = 0;
 
