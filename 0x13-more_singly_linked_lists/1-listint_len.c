@@ -2,7 +2,7 @@
 
 /**
 * listint_len - returns the number of elements
-* @h: head 
+* @h: head
 * Return: the number of elements in the list
 */
 
